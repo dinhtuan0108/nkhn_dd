@@ -1,5 +1,8 @@
 body {
-	background: #52101a;
+	background-image: url('../images/bg_body.png');
+	background-position:0 0;
+  	background-repeat:repeat repeat;
+	  
 }
 #container {
 	width: 1000px;
@@ -22,14 +25,12 @@ body {
 	margin: 0;
 }
 .primary-menu-container {
-	border-top: 1px solid #999;
-	border-bottom: 5px solid #999;
-	background: -webkit-linear-gradient(top, #fff, #e0e0e0);
-	background: -moz-linear-gradient(top, #fff, #e0e0e0);
-	background: -ms-linear-gradient(top, #fff, #e0e0e0);
-	background: -o-linear-gradient(top, #fff, #e0e0e0);
-	color: #000;
-	font-size: 12px;
+	border-top: 2px solid ##429364;
+	background-image: url('../images/bg_menu.png');
+	background-repeat:repeat-x;
+	border-bottom: 2px solid #429364;
+	color: #ffffff;
+	font-size: 13px;
 	height: 35px;
 }
 .menu-primary li{
@@ -43,8 +44,11 @@ body {
 	margin: 0;
 	color: #000 !important;
 }
+.menu-primary li a {
+	color: #fff !important;
+}
 .menu-primary li a:hover {
-	color: #CCCCCC !important;
+	color: red !important;
 }
 .nivo-controlNav {
 	margin-top: -40px;
